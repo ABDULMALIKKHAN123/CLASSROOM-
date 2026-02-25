@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 900px;
+    border: 3px solid purple;
+    margin: 33px auto;
+    background-color: rgb(231, 200, 172);
+}
+
+.item {
+    border: 3px solid gray;
+    margin: 12px 3px;
+    padding: 12px 3px;
+    background-color: rgb(232, 217, 217);
+}
+
+#fruits {
+    float: left;
+    width: 48%;
+}
+
+#Mango {
+    float: left;
+    width: 48%;
+}
+
+#Apple {
+    /* float: left; */
+    clear: both;
+    width: 96%;
+}
+
+h1 {
+    text-align: center;
+    margin: auto;
+}
+
+body {
+    background-color: rgb(247, 188, 121);
+}
