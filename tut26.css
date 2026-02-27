@@ -1,0 +1,121 @@
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('https://images.unsplash.com/photo-1738321791248-540704838144?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    /* height: 500px;
+    width: 500px; */
+}
+
+.left{
+    position: absolute;
+    left: 34px;
+    top: 20px;
+    display: inline-block;
+    color: white;
+/* border: 2px solid rgb(0, 64, 255); */
+}
+
+.left img{
+    width: 160px;
+    height: 60px;
+    align-items: center;
+}
+
+.left div{
+    /* text-align: center; */
+}
+
+.mid{
+    color: white;
+    display:block;
+    top: 40px;
+    width: 33%;
+    margin: 12px auto;
+/* border: 2px solid rgb(0, 255, 47); */
+border-radius: 20px;
+}
+
+.right{
+    position: absolute;
+    right: 34px;
+    top: 50px;
+    color: white;
+    display: inline-block;
+    
+/* border: 2px solid rgb(255, 0, 179); */
+}
+
+.navbar{
+    display: inline-block;
+   
+}
+
+.navbar li{
+    display: inline-block;
+    padding: 14px;
+    
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+
+}
+
+.navbar li a:hover, .navbar li a.active{
+ text-decoration: underline;
+ color: gray;
+
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    margin: 0px 9px;
+    padding: 4px 14px;
+    border: 2px solid gray;
+    /* border-radius: 10px; */
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn :hover{
+    background-color: gray;
+}
+
+.container{
+    border: 2px solid green;
+    margin: 106px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 20px;
+    color:white;
+    background-color: black
+
+}
+
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 500px;
+    border: 2px solid black;
+    margin: 11px auto;
+    padding: 8px;
+    font-size: 21px;
+    border-radius: 23px;
+
+}
+
+h1{
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 500px;
+    margin: auto;
+    border-radius: 23px;
+
+}
